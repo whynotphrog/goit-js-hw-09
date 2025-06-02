@@ -1,0 +1,72 @@
+label,
+input,
+textarea,
+button {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.feedback-form {
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.label-email {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.label-message {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;;
+}
+
+.feedback-form input, textarea {
+    border: 1px solid #808080;
+        border-radius: 4px;
+        width: 360px;
+        height: 40px;
+}
+
+.feedback-form input::placeholder, textarea::placeholder {
+opacity: 0;
+}
+
+.feedback-form input:hover, textarea:hover {
+    border: 1px solid #000;
+}
+
+.feedback-form input:focus::placeholder, textarea:focus::placeholder {
+    opacity: 1;
+    color: #2e2f42;
+    letter-spacing: 0.04em;
+}
+
+.feedback-form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background-color: #4e75ff;
+    color: #fff;
+}
+
+.feedback-form button:hover {
+    background-color: #6c8cff;
+}
